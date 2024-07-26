@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .navigation {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    height: 80px;
+    color: white;
+    width: 100%;
+    background-color: #3d0d3d;
+  }
+  nav {
+    display: flex;
+    padding: 10px 10px;
+  }
+  .icon {
+    width: 149px;
+    font-size: 42px;
+    height: 55px;
+    display: flex;
+  }
+  .icon span {
+    color: #e73131;
+    display: inline-block;
+  }
+  .menu {
+    position: relative;
+    left: 44%;
+  }
+  .menu ul {
+    display: flex;
+  }
+  .menu ul li {
+    list-style: none;
+    font-size: 22px;
+    margin: 0px 17px;
+    display: inline-block;
+  }
+  .menu ul li:hover{
+    text-decoration: underline;
+  }
+  .herosection {
+    height: 540px;
+    width: 100%;
+    margin-top: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .herosection::before {
+    content: "";
+    background: url(/PICS&Videos/colorful-headphones-with-word-dj-it_873925-8484.avif)
+      no-repeat center;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  .content {
+    position: relative;
+    opacity: 100%;
+    top: 11px;
+    height: 400px;
+    width: 80%;
+    color: white;
+    font-size: 18px;
+    opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+    font-size: 85px;
+    font-weight: bolder;
+  }
+  .tagline {
+    font-size: 30px;
+  }
+  .music {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3px;
+    height: 329px;
+    width: 100%;
+    background-color: #433543;
+    color: white;
+  }
+  .mlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .mlogo img {
+    height: 38px;
+    width: 37px;
+    filter: invert(100%);
+  }
+  .mlogo span {
+    font-size: 39px;
+    font-weight: bold;
+    color: white;
+  }
+  .des {
+    height: 80px;
+    width: 70%;
+  }
+  .des p {
+    padding: 0px 72px;
+  }
+  p {
+    font-size: 19px;
+  }
+  .trial {
+    margin-top: 43px;
+  }
+  .trial button {
+    background-color: rgb(182, 14, 14);
+    color: white;
+    padding: 10px;
+    font-size: 23px;
+    border: none;
+  }
+  .lappy {
+    height: 400px;
+    background-color: rgb(248, 231, 231);
+    color: black;
+    z-index: -3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lappy img {
+    position: relative;
+    z-index: 3;
+    height: 500px;
+    width: 500px;
+  }
+  .girl img {
+    height: 384px;
+    width: 181px;
+    position: relative;
+    top: -5px;
+    left: -340px;
+    border-radius: 24px;
+    z-index: 2;
+  }
+  .para {
+    height: 224px;
+    width: 470px;
+    font-size: 21px;
+    position: relative;
+    left: 0px;
+    font-weight: bold;
+    padding: 0px 14px;
+  }
+  .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+  .tv {
+    width: 100%;
+    height: 130px;
+  }
+  .tv p {
+    padding: 30px 118px;
+  }
+  .try {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .try button {
+    background-color: purple;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+  }
+  .moj {
+    margin-top: 2px;
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+  }
+  .moj::before {
+    content: "";
+    background: url(/PICS&Videos/glowing-shiny-musical-notes-background-design_1017-32856.avif)
+      no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.88;
+  }
+  
+  .enter {
+    position: relative;
+    top: -378px;
+    left: 55%;
+    height: 200px;
+    width: 503px;
+    color: white;
+  }
+  .world {
+    font-size: 22px;
+    padding: 10px 10px;
+  }
+  .exp {
+    font-size: 19px;
+    padding: 10px 10px;
+  }
+  .gift {
+ background-color: #f8e7e7;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    margin-top: 2px;
+    justify-content: space-around;
+  }
+  .giftimg {
+    height: 263px;
+  width: 424px;
+   
+  }
+  .giftimg img {
+    height: 100%;
+    width: 100%;
+  }
+  .card {
+    scroll-behavior: smooth;
+    height: 300px;
+    width: 607px;
+  }
+  .money{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .details{
+    
+    font-size: 19px;
+  padding: 10px 18px;
+  }
+  .refer{
+    font-size: 19px;
+  padding: 10px 18px;
+  }
+  .redeem button{
+    background-color: purple;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    position: relative;
+    left: 22px;
+  top: 5px;
+  }
+  .footer{
+   display: block;
+   height: 194px;
+   width: 100%;
+ 
+   background-color: #3d0d3d;
+  }
+  .links{
+    display: flex;
+  }
+  .services{
+    color: white;
+  height: 200px;
+  width: 150px;
+  margin: 0px 6%;
+  position: relative;
+  left: 5%;
+  }
+  .services p{
+    font-size: 22px;
+
+  }
+
+  .services ul li{
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 18px;
+  }
+.store{
+  padding: 0px 39px;
+}
+.store2{
+  padding: 0px 15px;
+}
+.store3{
+  padding: 0px 32px;
+}
+.copyright{
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#791879 ;
+  margin: 0px;
+  width: 100%;
+  height: 50px;
+}
+.audio{
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 40%;
+
+  }
+.audio img{
+  position: relative;
+  height: 65px;
+  width: 68px;
+  filter: invert(100%);
+
+
+}
+.taal{
+  animation: taal 1s infinite ease-out;
+}
+.paragraph{
+  animation: paragraph 1s 1 ease-in ;
+}
+@keyframes taal {
+  0%{
+transform: skew(0deg);
+  }
+  50%{
+transform: skew(-10deg);
+  }
+  100%{
+    transform: skew(10deg);
+  }
+}
+@keyframes paragraph {
+  0%{
+    height: 224px;
+    width: 470px;
+    font-size: 21px;
+    position: relative;
+    left: 580px;
+    font-weight: bold;
+    padding: 0px 14px;
+  }
+
+  100%{
+    height: 224px;
+    width: 470px;
+    font-size: 21px;
+    position: relative;
+    left: 0px;
+    font-weight: bold;
+    padding: 0px 14px;
+  }
+  
+}
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+}
